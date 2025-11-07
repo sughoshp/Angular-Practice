@@ -10,15 +10,6 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'counter-app';
   count: number = 0;
-  increment = () => {
-    this.count++;
-  }
-  decrement = () => {
-    this.count--;
-  }
-  reset = () => {
-    this.count = 0;
-  }
   handleCounter = (val: string) => {
     if (val == 'minus') {
       this.count--;
